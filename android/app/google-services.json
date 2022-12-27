@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "500783748544",
+    "project_id": "desafiosilicon-caee3",
+    "storage_bucket": "desafiosilicon-caee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500783748544:android:f0dbe5b19ee85b57566425",
+        "android_client_info": {
+          "package_name": "com.example.desafio_silicon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500783748544-ahnrs1p4e68qi5nm218n2ihdcm8tbq78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGw79xP1Le6vD5OtKO4aOVicOEr_UPeL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500783748544-ahnrs1p4e68qi5nm218n2ihdcm8tbq78.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500783748544-0j3vc6bs1chum3j8gm94sjpf4q9jofrs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.desafioSilicon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
