@@ -9,4 +9,4 @@ Desafio proposto pela Silicon Village para implementação de um aplicativo mobi
 - ``Native Splash``
 - ``Launcher Icons``
 
-Os arquivos do projetos são encontrados na pasta "lib".
+Os arquivos do projetos são encontrados na pasta "lib", ou clicando [aqui](https://github.com/JohnSeavon/SiliconChallenge/tree/main/lib).

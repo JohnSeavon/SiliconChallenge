@@ -5,14 +5,6 @@ import 'package:flutter/material.dart';
 
 class ComposeMessagePage extends StatelessWidget {
   const ComposeMessagePage({Key? key}) : super(key: key);
-/*class ComposeMessagePage extends StatefulWidget {
-  const ComposeMessagePage({super.key});
-
-  @override
-  State<ComposeMessagePage> createState() => _ComposeMessagePageState();
-}
-
-class _ComposeMessagePageState extends State<ComposeMessagePage> {*/
 
   void _sendMessage(String text){
     FirebaseFirestore.instance.collection("messages").add({"text": text, "time": Timestamp.now()});

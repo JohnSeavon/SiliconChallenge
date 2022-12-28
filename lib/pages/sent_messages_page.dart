@@ -3,14 +3,6 @@ import 'package:flutter/material.dart';
 
 class SentMessagesPage extends StatelessWidget {
   const SentMessagesPage({Key? key}) : super(key: key);
-/*class SentMessagesPage extends StatefulWidget {
-  const SentMessagesPage({super.key});
-
-  @override
-  State<SentMessagesPage> createState() => _SentMessagesPageState();
-}
-
-class _SentMessagesPageState extends State<SentMessagesPage> {*/
 
   Stream<QuerySnapshot> _getList() {
     return FirebaseFirestore.instance.collection('messages').orderBy('time', descending: true).snapshots();
